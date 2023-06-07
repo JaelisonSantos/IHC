@@ -1,0 +1,177 @@
+.carousel-image {
+  width: 300px;
+  height: 200px;
+}
+
+.card-custom {
+  width: 800px;
+  height: 800px;
+}
+
+#clashover{
+  transition: transform 0.3s;
+}
+
+#clashover:hover {
+  transform: scale(1.1);
+}
+
+a.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: black;
+  color: lawngreen;
+ 
+}
+
+.custom-body {
+  color: #fff;
+  
+  
+}
+
+.custom-margin {
+  margin-bottom: 80px;
+}
+
+.image-border {
+  background-color: black;
+  padding: 20px;
+}
+
+.image-border img {
+  display: block;
+  margin: 10px auto;
+}
+
+.bordered-box {
+  border: 10px solid black;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bordered-box img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnails-container img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.imagem-row {
+  margin-bottom: -10px; /* Ajuste a margem inferior conforme necessário */
+}
+
+.imagem-col {
+  padding: 1px; /* Ajuste o espaçamento interno conforme necessário */
+}
+
+.no-gutters .col {
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+.img-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.img-hover:hover .texto-escondido {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999; /* Adicionamos um índice z alto para garantir que o texto fique acima da imagem */
+}
+
+.img-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.img-hover:hover .texto-escondido {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+}
+
+.texto-escondido {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  max-width: 80%;
+  z-index: 999;
+  pointer-events: none; /* Adicionamos esta propriedade para permitir que o mouse passe através do elemento de texto */
+}
+
+.texto-escondido p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.no-outline {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.custom-navbar {
+  padding: 20px;
+}
+
+#newModal .modal-content {
+  background: black;
+  border: none;
+  box-shadow: none;
+}
+
+#newModal .modal-dialog {
+  margin: 0 auto;
+}
+
+#newModal .modal-body {
+  background-image: url(../Imagens/bode.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+#newModal .modal-content .modal-header {
+  border-bottom: none;
+}
+
+#newModal .modal-content .modal-footer {
+  border-top: none;
+  background: none;
+}
+
+
+
